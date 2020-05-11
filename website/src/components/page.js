@@ -5,13 +5,13 @@ import Footer from '@codeday/topo/Organism/Footer';
 import { CodeDay } from '@codeday/topo/Atom/Logo';
 
 // TODO: Set production domain
-const DOMAIN = 'https://dayssincelastcodedaycrash.codeday.org';
+const DOMAIN = 'https://dayssincelastcodedaycrash.com';
 
 export default ({ children, title, darkHeader, slug }) => (
   <>
     <DefaultSeo
       title={title}
-      description="dayssincelastcodedaycrash description"
+      description="How many days since the last CodeDay crash?"
       canonical={`${DOMAIN}${slug}`}
       openGraph={{
         type: 'website',
